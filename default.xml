@@ -7,7 +7,6 @@
   <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
            sync-j="4" />
-  <remote name="mtg" fetch="https://gitlab.com/MindTheGapps/" />
   
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
@@ -834,8 +833,6 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
-
-  <project path="vendor/gapps" name="vendor_gapps" revision="rho" remote="mtg" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
   <include name="redroid.xml" />
